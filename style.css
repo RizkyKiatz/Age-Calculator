@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+.container{
+    width:250px;
+    display: block;
+}
+.calculator{
+    display: grid;
+    gap:10px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.birthdate{
+    height: 30px;
+    border-radius: 5px;
+}
+.calculate{
+    height:30px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+.result{
+    text-align: center;
+}
